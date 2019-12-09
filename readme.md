@@ -32,15 +32,15 @@ Asyncpg Dialects (Should not be empty): [EntryPoint.parse('postgresql.asyncpg = 
 INFO: Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
 INFO: Started reloader process [97696]
 ------Repro Debug------
-pkg_resources path: <module 'pkg_resources' from 'C:\\Users\\m_parker2\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pkg_resources\\__init__.py'>
-sys.executable: C:\Users\m_parker2\AppData\Local\Programs\Python\Python37\python.exe
+pkg_resources path: <module 'pkg_resources' from 'C:\\Users\\THIS_USER\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pkg_resources\\__init__.py'>
+sys.executable: C:\Users\THIS_USER\AppData\Local\Programs\Python\Python37\python.exe
 Asyncpg Dialects (Should not be empty): []
 -----------------------
 INFO: Started server process [88400]
 INFO: Waiting for application startup.
 ------Repro Debug------
-pkg_resources path: <module 'pkg_resources' from 'C:\\Users\\m_parker2\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pkg_resources\\__init__.py'>
-sys.executable: C:\Users\m_parker2\AppData\Local\Programs\Python\Python37\python.exe
+pkg_resources path: <module 'pkg_resources' from 'C:\\Users\\THIS_USER\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pkg_resources\\__init__.py'>
+sys.executable: C:\Users\THIS_USER\AppData\Local\Programs\Python\Python37\python.exe
 Asyncpg Dialects (Should not be empty): []
 -----------------------
 Uvicorn process running
