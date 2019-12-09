@@ -4,7 +4,8 @@ import sys
 print('Main process running.')
 
 import pkg_resources
-print(sys.modules['pkg_resources'])
+print('pkg_resources path:', sys.modules['pkg_resources'])
+print('sys.executable:', sys.executable)
 
 
 async def run(scope, receive, send):
