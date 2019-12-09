@@ -24,18 +24,24 @@ Reproduction instructions:
 My console says this:
 ```
 Connected to pydev debugger (build 193.5233.109)
-INFO: Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
-INFO: Started reloader process [116224]
-Main process running.
+------Repro Debug------
 pkg_resources path: <module 'pkg_resources' from 'C:\\Repositories\\debug-repro\\env\\lib\\site-packages\\setuptools-40.8.0-py3.7.egg\\pkg_resources\\__init__.py'>
 sys.executable: C:\Repositories\debug-repro\env\Scripts\python.exe
-Main process running.
-pkg_resources path: <module 'pkg_resources' from 'C:\\Users\\THIS_USER\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pkg_resources\\__init__.py'>
-sys.executable: C:\Users\THIS_USER\AppData\Local\Programs\Python\Python37\python.exe
-Main process running.
-pkg_resources path: <module 'pkg_resources' from 'C:\\Users\\THIS_USER\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pkg_resources\\__init__.py'>
-sys.executable: C:\Users\THIS_USER\AppData\Local\Programs\Python\Python37\python.exe
-Uvicorn process running
-INFO: Started server process [74060]
+Asyncpg Dialects (Should not be empty): [EntryPoint.parse('postgresql.asyncpg = gino.dialects.asyncpg:AsyncpgDialect')]
+-----------------------
+INFO: Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO: Started reloader process [97696]
+------Repro Debug------
+pkg_resources path: <module 'pkg_resources' from 'C:\\Users\\m_parker2\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pkg_resources\\__init__.py'>
+sys.executable: C:\Users\m_parker2\AppData\Local\Programs\Python\Python37\python.exe
+Asyncpg Dialects (Should not be empty): []
+-----------------------
+INFO: Started server process [88400]
 INFO: Waiting for application startup.
+------Repro Debug------
+pkg_resources path: <module 'pkg_resources' from 'C:\\Users\\m_parker2\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pkg_resources\\__init__.py'>
+sys.executable: C:\Users\m_parker2\AppData\Local\Programs\Python\Python37\python.exe
+Asyncpg Dialects (Should not be empty): []
+-----------------------
+Uvicorn process running
 ```
