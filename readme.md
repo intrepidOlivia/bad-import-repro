@@ -19,7 +19,7 @@ Reproduction instructions:
     * [X] Add content roots to PYTHONPATH
     * [X] Add source roots to PYTHONPATH
 
-4. View the values of `sys.modules['pkg_resources']` and `sys.executable` printed in the debug console.
+4. View the values of `sys.modules['pkg_resources']` and `sys.executable` printed in the debug console, as well as the availability of the needed database dialect.
 
 My console says this:
 ```
